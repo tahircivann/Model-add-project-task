@@ -43,7 +43,7 @@ const PlaneShaderforIKEA: React.FC = () => {
   });
 
   return (
-    <mesh ref={meshRef} rotation={[-Math.PI / 2, 0, 0]} position={[0, -1, 0]} data-testid="shader-plane">
+    <mesh ref={meshRef} rotation={[-Math.PI / 2, 0, 0]} position={[0, -1, 0]} >
       <planeGeometry args={[100, 100]} />
       <shaderMaterial attach="material" args={[IKEA]} />
     </mesh>

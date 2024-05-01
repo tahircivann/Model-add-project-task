@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Mesh, Material, Object3D } from 'three';
-import {GLTFLoader} from '../../node_modules/@types/three/examples/jsm/loaders/GLTFLoader.js';
+import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader';
 import { useLoader, useFrame } from '@react-three/fiber';
 
 interface ModelProps {
@@ -116,7 +116,7 @@ const Model: React.FC<ModelProps> = ({
     }
   }, [isSelected, gltf.scene]);
 
-  return <primitive object={gltf.scene} onClick={handleModelClick} position={[0, 1, 0]} data-testid="model-primitive" />;
+  return <primitive object={gltf.scene} onClick={handleModelClick} position={[0, 1, 0]} />;
 };
 
 export default Model;
