@@ -1,5 +1,6 @@
 # tahir-react-three-app
 
+![Screenshot 2024-05-01 152219](https://github.com/tahircivann/Model-add-project-task/assets/69795597/fc44a64b-caba-4476-bb72-7bbafd28a9a5)
 
 This project is a React application for viewing 3D models using Three.js and React-Three-Fiber.
 
